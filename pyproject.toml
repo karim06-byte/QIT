@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qit-task"
+version = "0.1.0"
+description = ""
+authors = ["karim06-byte <dev8@airgroup.az>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+shapely = "^2.0.6"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
